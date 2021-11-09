@@ -1,0 +1,24 @@
+{
+  "name": "Community Visualization",
+  "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/bar_chart.png",
+  "organization": "Data Studio ",
+  "organizationUrl": "https://lucia.com.co",
+  "termsOfServiceUrl": "https://lucia.com.co",
+  "supportUrl": "https://lucia.com.co",
+  "packageUrl": "https://lucia.com.co",
+  "privacyPolicyUrl": "https://lucia.com.co",
+  "description": "Visualizacion custom",
+  "devMode": false,
+  "components": [{
+    "id": "barChart",
+    "name": "Bar Chart",
+    "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/bar_chart.png",
+    "description": "Bar chart written in d3.js",
+    "resource": {
+      "js": "gs://datastudio_graficos/myViz.js",
+      "config": "gs://datastudio_graficos/myViz.json",
+      "css": "gs://datastudio_graficos/myViz.css"
+    }
+  }]
+}
+
